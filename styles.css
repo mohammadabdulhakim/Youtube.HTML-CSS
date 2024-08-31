@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+*,a{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+.videos-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 17px;
+    row-gap: 27px;
+}
+
+    .vid-container{
+        width: 100%;
+    }
+.vid-container a{
+    color: black;
+}
+
+.thumbnail-img{
+    width: 100%;
+}
+
+.channel-pic-container{
+    display: inline-block;
+}
+
+.channel-pic-container img{
+    width: 50px;
+    border-radius: 25px;
+}
+
+.vid-info{
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 11px;
+}
+
+.title{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    line-height: 23px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.channel-name,
+.views
+{
+    color: rgb(66, 66, 66);
+    font-size: 13px;
+}
