@@ -32,6 +32,22 @@ a {
   color: black;
 }
 
+.thumbnail{
+  position:relative;
+}
+
+.duration{
+  position: absolute;
+  bottom: 15px;
+  right: 6px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .thumbnail-img {
   width: 100%;
 }
