@@ -83,11 +83,12 @@ a {
   justify-content: space-between;
   background-color: #eee;
   gap: 20px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
+
 .nav div {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
   padding: 8px 20px;
   height: 35px;
   background-color: #fff;
@@ -95,7 +96,9 @@ a {
   align-items: center;
   justify-content: center;
   gap: 23px;
+  transition: box-shadow 150ms ease;
 }
+
 
 .nav .start {
   border-radius: 1000px;
