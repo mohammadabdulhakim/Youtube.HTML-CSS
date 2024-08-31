@@ -141,3 +141,18 @@ a {
   box-shadow: none;
   cursor: pointer;
 }
+
+.nav .end{
+  margin-left: 50px;
+  border-radius: 4px;
+}
+
+.logo{
+  height: 23px;
+  cursor: pointer;
+}
+
+.nav .end .icon{
+  height: 21px;
+  width: 21px;
+}
