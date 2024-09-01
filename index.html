@@ -9,9 +9,15 @@
   <body>
     <div class="nav">
       <div class="start">
-        <img class="profile-pic" src="assets/icons/social-media.png" alt="" />
-        <img class="new-video icon" src="assets/icons/new-video.png" alt="" />
+        <img title="حسابك" class="profile-pic" src="assets/icons/social-media.png" alt="" />
         <img
+          title="ارفع مقطع جديد"
+          class="new-video icon"
+          src="assets/icons/new-video.png"
+          alt=""
+        />
+        <img
+          title="الإشعارات"
           class="notification icon"
           src="assets/icons/notification.png"
           alt=""
@@ -24,15 +30,16 @@
           name="search"
           id="search-input"
           placeholder="أبحث عن ..."
+          title="أبحث عن ..."
         />
-        <div id="search-icon">
+        <div id="search-icon" title="Search">
           <img class="icon" src="assets/icons/search.png" alt="" />
         </div>
       </div>
 
       <div class="end">
         <img src="assets/icons/youtvbe.png" class="logo" alt="" />
-        <img class="icon" src="assets/icons/menu.png" alt="" />
+        <img class="icon" src="assets/icons/menu.png" title="القائمة" alt="" />
       </div>
     </div>
 
@@ -44,9 +51,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-1.webp"
             />
-            <p class="duration">
-              40:19
-            </p>
+            <p class="duration">40:19</p>
           </div>
 
           <div class="vid-info">
@@ -71,9 +76,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-2.webp"
             />
-            <p class="duration">
-              12:58
-            </p>
+            <p class="duration">12:58</p>
           </div>
 
           <div class="vid-info">
@@ -98,9 +101,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-12.webp"
             />
-            <p class="duration">
-              5:02
-            </p>
+            <p class="duration">5:02</p>
           </div>
 
           <div class="vid-info">
@@ -126,9 +127,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-9.webp"
             />
-            <p class="duration">
-              1:19
-            </p>
+            <p class="duration">1:19</p>
           </div>
 
           <div class="vid-info">
@@ -151,9 +150,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-8.webp"
             />
-            <p class="duration">
-              1:49
-            </p>
+            <p class="duration">1:49</p>
           </div>
 
           <div class="vid-info">
@@ -178,9 +175,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-10.webp"
             />
-            <p class="duration">
-              45:03
-            </p>
+            <p class="duration">45:03</p>
           </div>
 
           <div class="vid-info">
@@ -206,9 +201,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-13.webp"
             />
-            <p class="duration">
-              6:59
-            </p>
+            <p class="duration">6:59</p>
           </div>
 
           <div class="vid-info">
@@ -234,9 +227,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-11.webp"
             />
-            <p class="duration">
-              38:28
-            </p>
+            <p class="duration">38:28</p>
           </div>
 
           <div class="vid-info">
@@ -261,9 +252,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-4.webp"
             />
-            <p class="duration">
-              11:00
-            </p>
+            <p class="duration">11:00</p>
           </div>
 
           <div class="vid-info">
@@ -286,9 +275,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-5.webp"
             />
-            <p class="duration">
-              5:03
-            </p>
+            <p class="duration">5:03</p>
           </div>
 
           <div class="vid-info">
@@ -314,9 +301,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-7.webp"
             />
-            <p class="duration">
-              1:23
-            </p>
+            <p class="duration">1:23</p>
           </div>
 
           <div class="vid-info">
@@ -342,9 +327,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-5.webp"
             />
-            <p class="duration">
-              16:25
-            </p>
+            <p class="duration">16:25</p>
           </div>
 
           <div class="vid-info">
@@ -369,9 +352,7 @@
               class="thumbnail-img"
               src="assets/thumbnails/thumbnail-3.webp"
             />
-            <p class="duration">
-              22:06
-            </p>
+            <p class="duration">22:06</p>
           </div>
 
           <div class="vid-info">
@@ -388,6 +369,37 @@
             </div>
           </div>
         </a>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div title="الرئيسية" class="sidebar-icon home active">
+        <img class="sidebar-icon-img" src="assets/icons/home.png" alt="" />
+        <p class="sidebar-icon-text">الرئيسية</p>
+      </div>
+      <div title="الإشتراكات" class="sidebar-icon subscriptions">
+        <img
+          class="sidebar-icon-img"
+          src="assets/icons/subscriptions.png"
+          alt=""
+        />
+        <p class="sidebar-icon-text">الإشتراكات</p>
+      </div>
+      <div title="قناتك" class="sidebar-icon channel">
+        <img class="sidebar-icon-img" src="assets/icons/channel.png" alt="" />
+        <p class="sidebar-icon-text">قناتك</p>
+      </div>
+      <div title="السجل" class="sidebar-icon history">
+        <img class="sidebar-icon-img" src="assets/icons/history.png" alt="" />
+        <p class="sidebar-icon-text">السجل</p>
+      </div>
+      <div title="فيديوهاتك" class="sidebar-icon videos">
+        <img class="sidebar-icon-img" src="assets/icons/videos.png" alt="" />
+        <p class="sidebar-icon-text">فيديوهاتك</p>
+      </div>
+      <div title="التنزيلات" class="sidebar-icon downloads">
+        <img class="sidebar-icon-img" src="assets/icons/downloads.png" alt="" />
+        <p class="sidebar-icon-text">التنزيلات</p>
       </div>
     </div>
   </body>
